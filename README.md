@@ -6,42 +6,39 @@
 
 Захотелось какой-то автоматизации. Желательно с горячими клавишами. Желательно, чтобы горячие клавиши были доступны отовсюду. Короче хотим чего-то такого (спойлер):
 
-file:screenshot2013-02-20at2.59.31.png file:screenshot2013-02-20at2.59.26.png
+![alt tag](https://github.com/gn0meavp/Jira-Automator/blob/master/readme%20images/Screen%20Shot%202013-02-20%20at%202.59.26.png)
+
 
 **Решение**
 
-В Mac OS X есть замечательная вещь AppleScript, с помощью которого замечательное приложение Automator позволяет создавать системные сервисы, на которые можно вешать горячие клавиши. Создадим пару просты скриптов для ситуаций описанных выше. Или просто берём отсюда file:services.zip
+В Mac OS X есть замечательная вещь AppleScript, с помощью которого замечательное приложение Automator позволяет создавать системные сервисы, на которые можно вешать горячие клавиши.
 
-В архиве два файла, которые Mac OS X определяет как сервисы:
+В репозитории бандл, которые OS X определяет как сервис:
 
-file:screenshot2013-02-20at2.31.45.png
+![alt tag](https://github.com/gn0meavp/Jira-Automator/blob/master/readme%20images/Screen%20Shot%202013-02-20%20at%202.31.45.png)
 
 Первый будет использоваться для открытия тикетов в Jira, второй для открытия страниц в стаффе.
 
 При клике на каждом файле, система предлагает его установить (в папку ~/Library/Services) или открыть в Automator. 
 
-Файл "Staff Navigator" установим сразу, щёлкаем на нём два раза:
+Откроем бандл в Automator и отредактируем первую строчку, чтобы открывался нужный нам проект. 
 
-file:screenshot2013-02-20at2.39.48.png file:screenshot2013-02-20at2.38.24.png
-
-Другой файл "open user staff page (Yandex)" откроем в Automator и отредактируем первую строчку, чтобы открывался нужный нам проект. 
-
-file:screenshot2013-02-20at2.39.33.png 
+![alt tag](https://github.com/gn0meavp/Jira-Automator/blob/master/readme%20images/Screen%20Shot%202013-02-20%20at%202.39.33.png)
 
 В примере имя проекта указано MOBDISK, меняем его на нужный нам и сохраняем (можно создать несколько таких сервисов под нужные нам проекты в Jira). 
 
-file:screenshot2013-02-20at2.39.42.png
+![alt tag](https://github.com/gn0meavp/Jira-Automator/blob/master/readme%20images/Screen%20Shot%202013-02-20%20at%202.39.42.png)
 
-Теперь сохраняем и ставим аналогично первому (двойной щёлчок в Finder):
+Теперь сохраняем и ставим щелчком в файндере по бандлу:
 
-file:screenshot2013-02-20at2.37.57.png
+![alt tag](https://github.com/gn0meavp/Jira-Automator/blob/master/readme%20images/Screen%20Shot%202013-02-20%20at%202.37.57.png)
 
 Отлично! Осталось настроить горячие клавиши в системных настройках для наших сервисов. Для этого идём в System Preferences **>** Keyboard **>** Keyboard shortcuts:
 
-file:screenshot2013-02-20at2.46.00.png file:screenshot2013-02-20at2.46.39.png
+![alt tag](https://github.com/gn0meavp/Jira-Automator/blob/master/readme%20images/Screen%20Shot%202013-02-20%20at%202.46.00.png) ![alt tag](https://github.com/gn0meavp/Jira-Automator/blob/master/readme%20images/Screen%20Shot%202013-02-20%20at%202.46.39.png)
 
 В левом списке выбираем Services и прокручиваем в правом списке до General. Мы видим наши два сервиса, но они ещё без горячих клавиш. Можем настроить удобные сочетания для себя. Я настроил их как **Ctrl + ⌘ + J** для Jira и **Ctrl + ⌘ + U** (User) для Staff.
 
-file:screenshot2013-02-20at2.50.27.png
+![alt tag](https://github.com/gn0meavp/Jira-Automator/blob/master/readme%20images/Screen%20Shot%202013-02-20%20at%202.50.27.png)
 
 Ta-Daa! 
