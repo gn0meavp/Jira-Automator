@@ -35,7 +35,7 @@
 
 ![alt tag](https://github.com/gn0meavp/Jira-Automator/blob/master/readme%20images/Screen%20Shot%202013-02-20%20at%202.46.00.png) ![alt tag](https://github.com/gn0meavp/Jira-Automator/blob/master/readme%20images/Screen%20Shot%202013-02-20%20at%202.46.39.png)
 
-В левом списке выбираем Services и прокручиваем в правом списке до General. Мы видим наши два сервиса, но они ещё без горячих клавиш. Можем настроить удобные сочетания для себя. Я настроил их как **Ctrl + ⌘ + J** для Jira и **Ctrl + ⌘ + U** (User) для Staff.
+В левом списке выбираем Services и прокручиваем в правом списке до General. Мы видим наш сервис, но ещё без горячей клавиши. Можем настроить удобные сочетания для себя. Я настроил как **Ctrl + ⌘ + J**.
 
 ![alt tag](https://github.com/gn0meavp/Jira-Automator/blob/master/readme%20images/Screen%20Shot%202013-02-20%20at%202.50.27.png)
 
