@@ -1,6 +1,6 @@
 **Automator script for Jira access**
 
-With using this Apple Automator script you can get easy access to the certain pages of any tracker system like Jira by hot key.
+With using this Apple Automator script you can get easy access to the certain tickets of any tracker system like Jira by hot key:
 
 ![alt tag](https://github.com/gn0meavp/Jira-Automator/blob/master/readme%20images/Screen%20Shot%202013-02-20%20at%202.59.26.png)
 
